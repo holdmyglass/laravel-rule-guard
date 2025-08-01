@@ -2,9 +2,9 @@
 
 namespace Holdmyglass\RuleGuard;
 
+use Holdmyglass\RuleGuard\Commands\RuleGuardCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Holdmyglass\RuleGuard\Commands\RuleGuardCommand;
 
 class RuleGuardServiceProvider extends PackageServiceProvider
 {

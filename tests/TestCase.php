@@ -2,9 +2,9 @@
 
 namespace Holdmyglass\RuleGuard\Tests;
 
+use Holdmyglass\RuleGuard\RuleGuardServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Holdmyglass\RuleGuard\RuleGuardServiceProvider;
 
 class TestCase extends Orchestra
 {
